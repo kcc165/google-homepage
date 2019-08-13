@@ -1,0 +1,15 @@
+html, body{
+    display: block;
+    position: relative;
+    text-align: center;
+}
+nav{
+    display: inline-block;
+    width: 100%;
+}
+.right-side{
+    float: left;
+}
+.left-side{
+    float: right;
+}
