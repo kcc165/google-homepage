@@ -1,15 +1,38 @@
 html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
     display: block;
-    position: relative;
     text-align: center;
 }
-nav{
-    display: inline-block;
+footer{
+    position: absolute;
     width: 100%;
+    bottom: 0;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+    
+}
+li{
+    display: inline;
+    
+}
+a{
+    color: black;
+}
+nav{
+    position: absolute;
+    width: 100%;
+    top: 0;
 }
 .right-side{
     float: left;
 }
 .left-side{
     float: right;
+}
+#hamburger{
+    width: 10%;
 }
